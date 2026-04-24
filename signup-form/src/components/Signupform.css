@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.form {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.dark {
+  background: #121212;
+}
+
+.dark .form {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dark input {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark button {
+  background: #444;
+  color: white;
+}
